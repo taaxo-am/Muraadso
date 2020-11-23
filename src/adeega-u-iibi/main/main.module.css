@@ -1,0 +1,129 @@
+.container {
+    width: 100%;
+    background: red;
+}
+
+.center {
+    width: 60%;
+    height: calc(100vh);
+    min-height: 720px;
+    background: red;
+    margin-left: 12rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.center h1 {
+    letter-spacing: 10px;
+    font-size: 72px !important;
+    line-height: 72px;
+    margin: 0;
+}
+
+.center p {
+    margin-top: 30px;
+    font-family: "Roboto Thin", Lato, sans-serif;
+    letter-spacing: 5px;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.center h3 {
+    margin-top: 2rem;
+    width: 333px;
+    height: 82px;
+    line-height: 82px;
+    letter-spacing: 2px;
+    font-size: 34px;
+}
+
+.person {
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 200%;
+    border-bottom-left-radius: 200%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.center a {
+    text-decoration: none;
+    color: white;
+}
+
+.video {
+    font-size: 24px !important;
+    cursor: pointer;
+    min-width: 250px !important;
+    height: 70px !important;
+    line-height: 65px !important;
+    text-align: center;
+    margin: 0;
+    border-radius: 60px;
+    padding: 0 !important;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+}
+
+.video i {
+    margin-left: 10px;
+}
+
+.video:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.person img {
+    height: 70%;
+    position: absolute;
+}
+
+@media screen and (max-width: 1173px) {
+    .center {
+        width: 100%;
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .center h1 {
+        letter-spacing: 10px;
+    }
+
+    .person {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .center {
+        min-height: 500px;
+    }
+    .center h1 {
+        font-size: 48px !important;
+        letter-spacing: 5px;
+        line-height: 55px;
+    }
+
+    .center p {
+        font-family: "Roboto Thin", Lato, sans-serif;
+        letter-spacing: 5px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .video {
+        font-size: 16px !important;
+        max-width: 140px !important;
+        max-height: 60px !important;
+        line-height: 60px !important;
+    }
+}

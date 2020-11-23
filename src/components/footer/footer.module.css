@@ -1,0 +1,158 @@
+.footer {
+    background: red;
+}
+
+.footer > .content {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    padding: 2rem 0;
+    flex-flow:column wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer > .content > div {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.copyright {
+    font-size: 1.42rem;
+}
+
+.icons {
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .footer > .content {
+        padding-top: 2rem;
+        flex-direction: column;
+    }
+
+    .footer > .content > div {
+        margin: 0;
+        width: 100%;
+        justify-content: center !important;
+    }
+}
+
+.footer > .content > div > div > h4 {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.footer > .content > div > div > p {
+    margin: 12px 0;
+    text-align: left;
+}
+
+.footer > .content > div img {
+    align-self: flex-start;
+    margin-right: 2rem;
+    width: 60px;
+}
+
+.footer > .content > div i {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+.footer > .content > div i:hover {
+    cursor: pointer;
+    color: #582626;
+}
+
+.footer > .content > div > input {
+    width: 300px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    border-radius: 7px;
+    border: 2px solid #EDEDED;
+}
+
+.footer > .content > div > button {
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    background: #FD0054;
+    border: none;
+    color: white;
+    margin-left: 1rem;
+    font: normal 500 14px 'Roboto Medium';
+}
+
+.container {
+    width: 100%;
+    padding: 12px 24px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.section {
+    margin-bottom: 2rem;
+    width: 400px;
+}
+
+.small {
+    color: #dedede;
+    line-height: 1px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.bottom {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: darkred;
+    color: white;
+}
+
+.bottom small {
+    margin-left: 20px;
+}
+
+.bottom p {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1200px){
+    .footer {
+        font-size: 0.8rem;
+    }
+    .section {
+        margin-bottom: 2rem;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .footer {
+        font-size: 1rem;
+    }
+
+    .bottom {
+        width: 100%;
+        padding: 12px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        background: darkred;
+        color: white;
+    }
+}
+
+

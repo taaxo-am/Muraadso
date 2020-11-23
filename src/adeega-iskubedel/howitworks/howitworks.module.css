@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    text-align: center;
+    background: #DFD8D8;
+}
+
+.container > h1 {
+    color: #4E4E4E;
+    font-size: 2.3rem;
+}
+
+.container hr {
+    background: #878a8d;
+    border: none;
+    width: 100%;
+    height: 2px;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.cardsContainer i {
+    font-size: 32px;
+}
+
+@media screen and (max-height: 780px){
+    .cardsContainer i {
+        display: none;
+    }
+}
+
+.card {
+    padding: 40px 20px;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 450px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.card h3 {
+    color: #6b6a6a;
+    margin: 0 0 1rem 0;
+}
+
+.card img {
+    width: 100px;
+    align-self: flex-end;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    background: red;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 0;
+}

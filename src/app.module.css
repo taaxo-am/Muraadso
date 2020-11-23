@@ -1,0 +1,25 @@
+.person {
+    height: 100vh;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-start-end-radius: 100%;
+}
+
+.person img {
+    height: 70%;
+    position: relative;
+}
+
+@media screen and (max-width: 1173px){
+    .person {
+        display: none;
+    }
+}
