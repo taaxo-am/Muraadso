@@ -4,10 +4,11 @@ import Img2 from './Ellipse 1.png'
 import Sell from './sell.png'
 import Person from './Capture.png'
 import Styles from './styles.module.css'
-import Navbar from "../components/navbar/Navbar";
-import HowItWorks from "../ka-iibi/howitworks/HowItWorks";
+import Navbar from "../../components/navbar/Navbar";
+import HowItWorks from "./howitworks/HowItWorks";
 import Slider from "react-slick";
-import Logo from "../components/logo-2.png";
+import Logo from "../../components/logo-2.png";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
 
@@ -137,18 +138,7 @@ const Home = () => {
 
             <HowItWorks />
 
-            <footer id='footer' className={Styles.footer}>
-                <div className={Styles.content}>
-                    <div className={Styles.copyright}>
-                        <p>Copyright &copy; 2020 - All rights reserved</p>
-                    </div>
-                    <div className={Styles.icons}>
-                        <i className='fab fa-instagram' />
-                        <i className='fab fa-twitter' />
-                        <i className='fab fa-facebook' />
-                    </div>
-                </div>
-            </footer>
+            <Footer bg='#3E3636' />
 
             <Navbar logo={Logo} color='white' onClick={(id) => {
                 const anchor = document.querySelector(`#${id}`)

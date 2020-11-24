@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from "../components/footer/Footer";
-import Main from "../adeega-u-iibi/main/Main";
+import Footer from "../../components/footer/Footer";
+import Main from "./main/Main";
 import About from "./about/About";
-import WhyUs from "../components/whyus/WhyUs";
+import WhyUs from "../../components/whyus/WhyUs";
 import Testimonial from "./testimonial/Testimonial";
 import Desc from "./desc/Desc";
 

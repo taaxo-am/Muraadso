@@ -1,11 +1,12 @@
 import React from "react";
 import {BrowserRouter as Router} from "react-router-dom";
-import Home from "./ka-iibi/Home";
+import Return from "./pages/information/Return";
+import Payment from "./pages/information/Payment";
 
 function App() {
     return (
         <Router>
-            <Home />
+            <Payment />
         </Router>
     );
 }

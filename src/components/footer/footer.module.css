@@ -1,12 +1,8 @@
-.footer {
-    background: red;
-}
-
 .footer > .content {
     width: 100%;
     min-height: 150px;
     display: flex;
-    padding: 2rem 0;
+    padding: 1rem 0;
     flex-flow:column wrap;
     align-items: center;
     text-align: center;
@@ -24,7 +20,9 @@
 }
 
 .copyright {
-    font-size: 1.42rem;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600;
+    font-size: 1.12rem;
 }
 
 .icons {

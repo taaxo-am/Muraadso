@@ -7,7 +7,7 @@ import Person from './person.png'
 import Styles from './styles.module.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import Slider from "react-slick";
-import Navbar from "../components/navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 
 const Home = () => {
 

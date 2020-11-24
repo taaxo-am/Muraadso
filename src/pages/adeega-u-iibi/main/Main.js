@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from "../../components/navbar/Navbar";
-import Logo from '../../components/logo-2.png'
+import Navbar from "../../../components/navbar/Navbar";
+import Logo from '../../../components/logo-2.png'
 import Styles from "./main.module.css";
 import Person from "./person.png";
 
